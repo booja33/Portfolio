@@ -14,8 +14,10 @@ const About = () => {
                         <p><strong>Name:</strong> Booja Sree</p>
                         <p><strong>Email:</strong>boojasree03@gmail.com</p>
                         <p><strong>Phone:</strong> 6381858023</p>
+                        <p><strong>DOB:</strong> 15-03-2003</p>
                     </div>
                     <div className="info-right">
+                    <p><strong>Age:</strong> 21</p>
                         <p><strong>Address:</strong> Nagercoil</p>
                         <p><strong>Degree:</strong> BTech</p>
                         

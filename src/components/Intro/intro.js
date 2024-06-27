@@ -1,8 +1,6 @@
 import React from 'react';
 import './intro.css';
-import { FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa';
-
-
+import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Intro = () => {
   return (
@@ -22,23 +20,24 @@ const Intro = () => {
           <p className='text'>Check Out My</p>
           <div className='icons-container'>
             <div className='icon'>
-            <a  href="https://www.instagram.com/booja.__.chan?igsh=bTY0MG1oazRvNm10" target='_blank' rel='noopener noreferrer' >
-              <FaInstagram size={30}  color='#c9a372' />
+              <a href="https://www.instagram.com/booja.__.chan?igsh=bTY0MG1oazRvNm10" target='_blank' rel='noopener noreferrer'>
+                <FaInstagram size={30} color='#c9a372' />
               </a>
-              <a  href="https://www.linkedin.com/in/booja-sree-s" target='_blank' rel='noopener noreferrer' >
-              <FaLinkedin size={30}  color='#c9a372' />
-            </a>
-            <a  href="https://www.linkedin.com/in/booja-sree-s" target='_blank' rel='noopener noreferrer' >
-              <FaGithub size={30}  color='#c9a372' />
-            </a>
+            </div>
+            <div className='icon'>
+              <a href="https://www.linkedin.com/in/booja-sree-s" target='_blank' rel='noopener noreferrer'>
+                <FaLinkedin size={30} color='#c9a372' />
+              </a>
+            </div>
+            <div className='icon'>
+              <a href="https://www.linkedin.com/in/booja-sree-s" target='_blank' rel='noopener noreferrer'>
+                <FaGithub size={30} color='#c9a372' />
+              </a>
+            </div>
           </div>
-          </div>
-        </div>  
+        </div>
       </div>
-      
     </section>
-    
-
   );
 };
 

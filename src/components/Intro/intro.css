@@ -62,15 +62,9 @@
   padding: 10 px;
   border-radius: 8px;
   margin-right: 40px;
+  color: #c9a372;
 }
 
-.text{
-  color: bisque;
-  margin-right: 20px;
-  font-size: 18px;
-
- 
-}
 
 .icons-container{
   display: flex;

@@ -17,7 +17,7 @@ const Intro = () => {
         </p>
         
         <div className='container'>
-          <p className='text'>Check Out My</p>
+          <p>Check Out My</p>
           <div className='icons-container'>
             <div className='icon'>
               <a href="https://www.instagram.com/booja.__.chan?igsh=bTY0MG1oazRvNm10" target='_blank' rel='noopener noreferrer'>

@@ -2,6 +2,7 @@ import React from 'react';
 import './intro.css';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
+
 const Intro = () => {
   return (
     <section id='intro' className="intro-section">

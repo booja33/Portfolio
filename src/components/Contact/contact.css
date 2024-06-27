@@ -1,70 +1,80 @@
-.Contact {
+/* General Styles */
+.contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust height as needed */
+  height: 100vh;
   padding: 0.5rem;
-  
 }
 
+.contactPageTitle, .contactDesc {
+  text-align: center;
+  width: 100%;
+ 
+}
+
+/* Title Styles */
+.contactPageTitle {
+  font-size: 2rem;
+  color: #8f7451;
+  margin-bottom: 0.5rem;
+}
+
+/* Description Styles */
 .contactDesc {
-  font-size: medium;
-  padding: 0.2rem;
+  font-size: 1rem;
   font-weight: 400;
-  display: flex;
-  align-self: center;
-  justify-content: center
-}
-
-.contactPageTitle{
-  align-self: center;
-  justify-content: center;
-  display: flex;
+  margin-bottom: 1rem;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
+/* Form Styles */
 .contactForm {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 90vw;
-  max-width: 60rem;
-  padding: 0.5rem
+  max-width: 600px;
+  padding: 1rem;
+  background: rgb(30, 30, 30);
+  border-radius: 0.5rem;
 }
 
-.name,
-.email,
-.msg,
-.submitBtn {
+/* Input and Button Styles */
+.name, .email, .msg, .submitBtn {
   width: 100%;
-  max-width: 40rem;
-  margin: 0.5rem;
+  max-width: 400px;
+  margin: 0.5rem 0;
   padding: 0.5rem;
-  color: white;
   border: none;
   border-radius: 0.5rem;
   background: rgb(40, 40, 40);
+  color: white;
 }
-  .submitBtn {
+
+.name::placeholder, .email::placeholder, .msg::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.submitBtn {
   background: white;
-  color: black; /* Adjust text color */
-  padding: 0.75rem 2rem; /* Adjust padding horizontally */
+  color: rgb(40, 40, 40);
+  padding: 0.75rem 2rem;
   border-radius: 3rem;
-  width: 100%; /* Set button width to fill container */
-  max-width: 15rem; /* Set maximum width for the button */
-  text-align: center; /* Center button text */
-  padding: 0.5rem;
+  max-width: 150px;
+  cursor: pointer;
 }
 
-.links{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.link{
-  object-fit: cover;
-  height: 3rem;
-  width: 3rem;
-  margin: 0 0.75rem;
+/* Visually Hidden Label */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }

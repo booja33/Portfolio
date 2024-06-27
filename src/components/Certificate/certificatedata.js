@@ -10,6 +10,7 @@ const certificates = [
     date: '2024-05-23',
     image:certificateImage,
   }
+  
 ];
 
 export default certificates;

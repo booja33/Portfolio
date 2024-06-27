@@ -1,0 +1,70 @@
+.Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+  padding: 0.5rem;
+  
+}
+
+.contactDesc {
+  font-size: medium;
+  padding: 0.2rem;
+  font-weight: 400;
+  display: flex;
+  align-self: center;
+  justify-content: center
+}
+
+.contactPageTitle{
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+  padding: 0.5rem
+}
+
+.name,
+.email,
+.msg,
+.submitBtn {
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+  .submitBtn {
+  background: white;
+  color: black; /* Adjust text color */
+  padding: 0.75rem 2rem; /* Adjust padding horizontally */
+  border-radius: 3rem;
+  width: 100%; /* Set button width to fill container */
+  max-width: 15rem; /* Set maximum width for the button */
+  text-align: center; /* Center button text */
+  padding: 0.5rem;
+}
+
+.links{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link{
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.75rem;
+}

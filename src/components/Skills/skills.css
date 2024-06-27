@@ -1,0 +1,81 @@
+/* src/styles/skills.css */
+#Skills {
+  overflow: hidden;
+  width: 100%;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+.skillTitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.skillDesc {
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 50rem;
+  padding: 0 2rem;
+}
+
+.skillBars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 50rem;
+}
+
+.skillBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+}
+
+.skillBarImg {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.skillBarText {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 720px) {
+  .skillBars {
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .skillBar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .skillBarImg {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .skillBarText > p {
+    font-size: 14px; /* Adjust font size for readability */
+  }
+}

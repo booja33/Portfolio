@@ -1,0 +1,42 @@
+.certificate-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.certificate-heading {
+    font-size: 2em;
+    margin-bottom: 5px;
+
+}
+
+.certificate-card {
+    border: 1px solid lightseagreen;
+    border-radius: 6px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 2px 4px whitesmoke;
+}
+
+.certificate-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.certificate-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.certificate-description {
+    font-size: 1em;
+    color: #555;
+}
+
+.certificate-date {
+    font-size: 0.9em;
+    color: #888;
+}

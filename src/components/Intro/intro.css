@@ -1,0 +1,86 @@
+#intro {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  height: 80vh;
+}
+
+.intro-content {
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.intro-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color:bisque /* Dark text color */
+}
+
+.intro-name {
+  font-size: 3rem;
+  font-family:'Times New Roman', Times, serif;
+  color:#8B4513; /* Custom name color (yellow) */
+}
+
+.intro-role {
+  font-size: 2rem;
+  font-weight: bold;
+  color:#c9a372 ; /* Primary color for the role */
+  margin-top: 1rem;
+  
+}
+
+.intro-description {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #666; /* Medium text color */
+}
+
+
+
+.btn-img {
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+/* Animation for intro-role */
+.intro-content:hover .intro-role {
+  opacity: 1; /* Show the role on hover */
+  transform: translateY(0); /* Reset position on hover */
+
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  background-color: rgb(30, 30, 30);
+  padding: 10 px;
+  border-radius: 8px;
+  margin-right: 40px;
+}
+
+.text{
+  color: bisque;
+  margin-right: 20px;
+  font-size: 18px;
+
+ 
+}
+
+.icons-container{
+  display: flex;
+  gap:10px;
+}
+
+.icon{
+  color: #c9a372;
+  background-color: none;
+  padding: 20px;
+
+
+}

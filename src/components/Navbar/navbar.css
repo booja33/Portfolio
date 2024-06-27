@@ -13,7 +13,9 @@
     z-index: 3;
 }
 
-
+.navbar h3{
+    color: #c9a372;
+}
 
 .logo{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

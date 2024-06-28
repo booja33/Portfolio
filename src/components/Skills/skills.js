@@ -14,8 +14,8 @@ import PythonLogo from '../../assets/python.png';
 const Skills = () => {
   return (
     <section id="Skills">
-      <span className='skillTitle'>What I do</span>
-      <span className="skillDesc">I am a skilled and passionate web designer with experience. I am proficient in HTML, CSS, JavaScript, React.js, Bootstrap, MySQL, Figma, Java, and Python.</span>
+      <span className='skillTitle'>Skills</span>
+    
       <div className="skillBars">
         <div className="skillBar">
           <img src={HtmlLogo} alt="HTML" className="skillBarImg" />

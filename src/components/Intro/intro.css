@@ -19,7 +19,7 @@
 .intro-heading {
   font-size: 1rem;
   font-weight: bold;
-  color:rgb(224, 193, 154); /* Dark text color */
+  color:rgb(224, 193, 154) /* Dark text color */
 }
 
 .intro-name {
@@ -31,8 +31,9 @@
 .intro-role {
   font-size: 2rem;
   font-weight: bold;
-  color:#c9a372; /* Primary color for the role */
+  color:#c9a372 ; /* Primary color for the role */
   margin-top: 1rem;
+  
 }
 
 .intro-description {
@@ -40,6 +41,8 @@
   margin-top: 1rem;
   color: #666; /* Medium text color */
 }
+
+
 
 .btn-img {
   height: 1.5rem;
@@ -50,71 +53,32 @@
 .intro-content:hover .intro-role {
   opacity: 1; /* Show the role on hover */
   transform: translateY(0); /* Reset position on hover */
+
 }
 
-.container {
+
+.container{
   display: flex;
   align-items: center;
-  justify-content:center;
-  padding: 10px;
+  justify-content:center ;
+  
+  padding: 10 px;
   border-radius: 8px;
   margin-right: 40px;
   color: #c9a372;
+  
 }
 
-.icons-container {
+
+.icons-container{
   display: flex;
   gap:10px;
 }
 
-.icon {
+.icon{
   color: #c9a372;
+  
   padding: 10px;
-}
 
-/* Media queries for mobile view */
-@media (max-width: 768px) {
-  #intro {
-    height: auto;
-    padding: 1rem;
-  }
 
-  .intro-content {
-    max-width: 100%;
-    padding: 1rem;
-  }
-
-  .intro-heading {
-    font-size: 0.8rem;
-  }
-
-  .intro-name {
-    font-size: 2rem;
-  }
-
-  .intro-role {
-    font-size: 1.5rem;
-  }
-
-  .intro-description {
-    font-size: 1rem;
-  }
-
-  .btn-img {
-    height: 1rem;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-right: 0;
-  }
-
-  .icons-container {
-    gap: 5px;
-  }
-
-  .icon {
-    padding: 5px;
-  }
 }

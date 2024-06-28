@@ -1,5 +1,5 @@
 #intro {
-  background-image: url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio-thumbnail.jpg');
+  background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@
 .intro-description {
   font-size: 1.3rem;
   margin-top: 1rem;
-  color: #666; /* Medium text color */
+  color: #222121; /* Medium text color */
 }
 
 
@@ -81,4 +81,23 @@
   padding: 10px;
 
 
+}
+
+@media screen and (max-width:370px) {
+  .introContent {
+      font-size: 2.5rem;
+      margin: 0;
+
+  }
+
+  .introTitle {
+      font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .introContent {
+      margin: 0;
+
+  }
 }

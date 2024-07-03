@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(30, 30, 30);
+
   height: 100vh;
 }
 
@@ -31,7 +31,7 @@
 .intro-role {
   font-size: 2rem;
   font-weight: bold;
-  color:#c9a372 ; /* Primary color for the role */
+  color:#8b6b41 ; /* Primary color for the role */
   margin-top: 1rem;
   
 }
@@ -87,9 +87,7 @@
   
   .intro{
   background-image: url('https://onlinepngtools.com/convert-landscape-png-to-portrait-png?vertical-orientation=false&custom-orientation=false&width=400&height=400&blur-fill=true&blur-radius=1&color-fill=false&left-top-color=blue&right-bottom-color=green&stretch-edge=false&stretch-depth=10');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    
 }
   .introContent {
       font-size: 2.5rem;

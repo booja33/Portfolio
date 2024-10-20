@@ -23,17 +23,17 @@ const Intro = () => {
           <div className='icons-container'>
             <div className='icon'>
               <a href="https://www.instagram.com/booja.__.chan?igsh=bTY0MG1oazRvNm10" target='_blank' rel='noopener noreferrer'>
-                <FaInstagram size={30} color='#c9a372' />
+                <FaInstagram size={30} color='#8B4513' />
               </a>
             </div>
             <div className='icon'>
               <a href="https://www.linkedin.com/in/booja-sree-s" target='_blank' rel='noopener noreferrer'>
-                <FaLinkedin size={30} color='#c9a372' />
+                <FaLinkedin size={30} color='#8B4513' />
               </a>
             </div>
             <div className='icon'>
               <a href="https://www.linkedin.com/in/booja-sree-s" target='_blank' rel='noopener noreferrer'>
-                <FaGithub size={30} color='#c9a372' />
+                <FaGithub size={30} color='#8B4513' />
               </a>
             </div>
           </div>

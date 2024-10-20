@@ -1,10 +1,9 @@
 /* AboutMe.css */
 .about-me {
-  background-color: rgb(30, 30, 30);
-  color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 500px;
+background-color: #fff;
+  color: black;
+  padding: 50px;
+  max-width: 100rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -20,31 +19,31 @@
 }
 
 .about-me p {
-  font-size: 14px;
+  font-size: 25px;
   line-height: 1.5;
 }
 
 .info-box {
-  border: 1px solid #fff;
+  
   padding: 20px;
-  border-radius: 10px;
-  margin: 20px 0;
+  border-radius: 5px;
+  
 }
 
 .info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .info-left, .info-right {
   text-align: left;
   padding: 10px;
-  gap:10px;
+  
 }
 
 .download-btn {
   background-color:rgb(177, 136, 87);
-  color: #fff;
+  color: black;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;

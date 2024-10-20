@@ -1,5 +1,5 @@
 .navbar{
-    background: rgba(153, 99, 48, 0.74);
+    background: rgba(181, 98, 21, 0.74);
     height: 4rem;
     width: 100vw;
     max-width: 100rem;
@@ -33,13 +33,13 @@
 }
 
 .desktopMenuBtn{
-    background: white;
+    background: rgb(113, 85, 48);
     color: black;
     border: none;
     align-items: center;
     display: flex;
     justify-content: center;
-    padding:  0  0.1rem;
+    padding:  0  0rem;
     border-radius: 2rem;
     
 }
@@ -49,6 +49,8 @@
     height: 1rem;
     width: 1rem;
     margin: 1rem;
+    
+   
 }
 
 .active{

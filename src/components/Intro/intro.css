@@ -83,13 +83,12 @@
 
 }
 
-@media screen and (max-width:370px) {
-  
-  .intro{
-    background-image: url('../../assets/background.jpg');
-  background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+@media screen and (max-width: 370px) {
+  .intro {
+    background-image: url('../../assets/background.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
   .introContent {
       font-size: 2.5rem;

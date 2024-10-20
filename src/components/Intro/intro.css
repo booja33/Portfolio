@@ -19,7 +19,7 @@
 .intro-heading {
   font-size: 1rem;
   font-weight: bold;
-  color:rgb(224, 193, 154) /* Dark text color */
+  color:rgb(208, 138, 51) /* Dark text color */
 }
 
 .intro-name {
@@ -87,7 +87,9 @@
   
   .intro{
   background-image: url('https://onlinepngtools.com/convert-landscape-png-to-portrait-png?vertical-orientation=false&custom-orientation=false&width=400&height=400&blur-fill=true&blur-radius=1&color-fill=false&left-top-color=blue&right-bottom-color=green&stretch-edge=false&stretch-depth=10');
-    
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
   .introContent {
       font-size: 2.5rem;
